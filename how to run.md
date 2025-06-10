@@ -1,0 +1,1 @@
+celery -A celery_tasks worker --pool=solo -l info -Q evaluation,processing,scoring
